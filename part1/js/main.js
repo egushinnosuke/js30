@@ -5,5 +5,5 @@ window.addEventListener("keydown", function(e){
 });
 
 function changeStyle(key){
-    document.querySelector('.key[data-keycord]='+key).style.color = white;
+    document.querySelector('.key[data-keycord]="'+key+'"').style.color = white;
 }
