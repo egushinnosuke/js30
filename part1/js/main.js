@@ -8,3 +8,8 @@ function changeStyle(key){
     let key_elm = document.querySelector('.key[data-keycord="'+key+'"]');
     key_elm.style.color = "white";
 }
+
+function sound(key){
+    let sound_elm = document.querySelector('audio[data-keycord="'+key+'"]');
+    sound_elm.play();
+}
