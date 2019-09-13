@@ -16,3 +16,13 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+.key{
+    transition: all 0.3s ease-out;
+    font-size: 20px;
+    color: white;
+}
+.key.now-playing{
+    font-size: 60px;
+    transform: rotate(720deg);
+}
