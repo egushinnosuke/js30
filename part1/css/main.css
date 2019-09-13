@@ -20,7 +20,12 @@ body{
 .key{
     transition: all 0.3s ease-out;
     font-size: 20px;
-    color: white;
+    color: rgb(197, 240, 8);
+    background: #ffffff88;
+    border: 2px solid rgb(197, 240, 8);
+    padding: 10px 30px;
+    border-radius: 4px;
+    margin: 0 20px;
 }
 .key.now-playing{
     font-size: 60px;
